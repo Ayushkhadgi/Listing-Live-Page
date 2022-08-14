@@ -1,0 +1,320 @@
+body{
+    margin:auto
+}
+a{
+    text-decoration: none;
+}
+header{
+    height:70px;
+    /*border:5px solid blue;*/
+    background-color: #3b2632;
+}
+#brand{
+    color:#fff;
+    font-size:30px;
+    float:left;
+    margin-top: 1%;
+    margin-left: 1%;
+}
+#social{
+    float:right;
+    margin-top: 7px;
+    margin-right: 1%;
+}
+.socialImg{
+    height:50px
+}
+/* Search Block Css */
+#container{
+
+    width: 80%;
+    margin-left:8%;
+    margin-top: 2%;
+}
+.filter{
+    height:500px;
+    width:20%;
+    border:2px solid green;
+    float: left;
+}
+
+.content{
+    height:700px;
+    width:75%;
+    margin-left:4%;
+    display: inline-block;
+    border:2px solid rgb(38, 0, 128);
+    overflow: scroll;
+}
+#Searchbox{
+    margin-left: 1%;
+    margin-top: 2%;
+}
+.cafe{
+    height:40%;
+    width:87%;
+    /* border:2px solid black; */
+    margin-left:2%;
+    margin-top:3%;
+    float: left;
+    margin-top: 1%;
+
+}
+.Cafe1{
+    width:52%;
+    float: left;
+}
+.Cafe1 img{
+    width:96%;
+    height:100%;
+    border-radius: 8%;
+}
+
+.Resso{
+    margin-top: 1%;
+    font-size: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-left: 2%;
+    color: blue;
+}
+
+.RessoSubHeading{
+    margin-top: 3%;
+    font-size: 15px;
+}
+.Lunch{
+    height: 40px;
+    width: 100px;
+    font-size: 20px;
+    color: #fff;
+   background-color:rgb(43, 4, 110)
+}
+.Nightlife{
+    height: 40px;
+    width: 120px;
+    font-size: 20px;
+    color: #fff;
+    background-color:rgb(7, 164, 44)
+}
+.Northindian{
+    height: 40px;
+    width: 160px;
+    font-size: 20px;
+    color: #fff;
+    background-color:rgb(243, 9, 9)
+}
+.Chinese{
+    height: 40px;
+    width: 140px;
+    font-size: 20px;
+    color: #fff;
+    background-color:rgb(14, 162, 241)
+}
+
+/* Footer Block Css */
+footer{
+    height:140px;
+    background-color: #3b2632;
+    color:#fff;
+    text-align: center;
+}
+
+ul{
+    list-style: none;
+}
+
+.fotDiv{
+    width:31%;
+    float:left;
+    border-right: 2px solid white;
+}
+
+.noBorder{
+    border:none
+}
+
+
+@media screen and (max-width:1400px){
+    .filter{
+        margin-left: 15%;
+        height:380px;
+    width:60%;
+    border:2px solid green;
+    }
+     .content{
+        margin-top: 2%;
+        width:100%;
+        border:2px solid rgb(38, 0, 128);
+        overflow: scroll;
+        
+    }
+    .Northindian{
+        height: 50px;
+        width: 125px;
+        font-size: 20px;
+        color: #fff;
+        background-color:rgb(243, 9, 9);
+    }
+    .Chinese{
+        height: 50px;
+        width: 130px;
+        font-size: 20px;
+        color: #fff;
+        background-color:rgb(14, 162, 241)
+    } 
+}
+@media screen and (max-width:1200px){
+    .filter{
+        margin-left: 15%;
+        height:380px;
+    width:60%;
+    border:2px solid green;
+    }
+     .content{
+        margin-top: 2%;
+        width:100%;
+        border:2px solid rgb(38, 0, 128);
+        overflow: scroll;
+        
+    }
+    .Northindian{
+        height: 50px;
+        width: 125px;
+        font-size: 20px;
+        color: #fff;
+        background-color:rgb(243, 9, 9);
+    }
+    .Chinese{
+        height: 50px;
+        width: 130px;
+        font-size: 20px;
+        color: #fff;
+        background-color:rgb(14, 162, 241)
+    } 
+}
+
+@media screen and (max-width:999px){
+    .filter{
+        margin-left: 20%;
+        height:380px;
+    width:60%;
+    border:2px solid green;
+    }
+     .content{
+        margin-top: 2%;
+        width:100%;
+        border:2px solid rgb(38, 0, 128);
+        overflow: scroll;
+        
+    }
+    .Northindian{
+        height: 50px;
+        width: 125px;
+        font-size: 19   px;
+        color: #fff;
+        background-color:rgb(243, 9, 9);
+        /* text-overflow: ellipsis; */
+    }
+    .Chinese{
+        height: 50px;
+        width: 125px;
+        font-size: 19px;
+        color: #fff;
+        background-color:rgb(14, 162, 241);
+    } 
+    
+}
+
+@media screen and (max-width:800px){
+    .filter{
+        margin-left: 30%;
+        height:380px;
+    width:60%;
+    border:2px solid green;
+    }
+     .content{
+        margin-top: 2%;
+        width:100%;
+        border:2px solid rgb(38, 0, 128);
+        overflow: scroll;
+        
+    }
+    
+    .Lunch{
+        
+        height: 50px;
+        width: 90px;
+        font-size: 12px;
+        color: #fff;
+       background-color:rgb(43, 4, 110)
+    }
+    .Nightlife{
+        height: 50px;
+        width: 90px;
+        font-size: 12px;
+        color: #fff;
+        background-color:rgb(7, 164, 44)
+    }
+    .Northindian{
+        height: 50px;
+        width: 90px;
+        font-size: 12px;
+        color: #fff;
+        background-color:rgb(243, 9, 9);
+    }
+    .Chinese{
+        height: 50px;
+        width: 90px;
+        font-size: 12px;
+        color: #fff;
+        background-color:rgb(14, 162, 241)
+    } 
+}
+
+@media screen and (max-width:600px){
+    .filter{
+        margin-left: 20%;
+        height:380px;
+    width:60%;
+    border:2px solid green;
+    }
+     .content{
+        margin-top: 2%;
+        width:100%;
+        border:2px solid rgb(38, 0, 128);
+        overflow: scroll;
+        
+    }
+    .Lunch{
+        
+        height: 50px;
+        width: 60px;
+        font-size: 10px;
+        color: #fff;
+       background-color:rgb(43, 4, 110)
+    }
+    .Nightlife{
+        height: 50px;
+        width: 60px;
+        font-size: 10px;
+        color: #fff;
+        background-color:rgb(7, 164, 44)
+    }
+    .Northindian{
+        height: 50px;
+        width: 75px;
+        font-size: 10px;
+        color: #fff;
+        background-color:rgb(243, 9, 9);
+    }
+    .Chinese{
+        height: 50px;
+        width: 74px;
+        font-size: 10px;
+        color: #fff;
+        background-color:rgb(14, 162, 241)
+    } 
+    .RessoSubHeading{
+        font-size: 10px;
+    }
+} 
