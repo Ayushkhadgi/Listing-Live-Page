@@ -39,7 +39,7 @@ header{
 }
 
 .content{
-    height:700px;
+    height:auto;
     width:75%;
     margin-left:4%;
     display: inline-block;
